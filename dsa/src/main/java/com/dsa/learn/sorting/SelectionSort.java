@@ -6,7 +6,7 @@ public class SelectionSort {
 		int arr[] = { 100, 20, 15, 30, 5, 75, 40 };
 		sort(arr);
 	}
-
+	
 	public static void sort(int arr[]) {
 		for (int j = 0; j < arr.length; j++) {
 			int minIndex = j;
